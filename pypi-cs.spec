@@ -5,7 +5,7 @@
 #
 Name     : pypi-cs
 Version  : 3.2.0
-Release  : 15
+Release  : 16
 URL      : https://files.pythonhosted.org/packages/68/09/f2ed131a6b154b371ca59c0cce2368be3020ef577980663b739aac90424f/cs-3.2.0.tar.gz
 Source0  : https://files.pythonhosted.org/packages/68/09/f2ed131a6b154b371ca59c0cce2368be3020ef577980663b739aac90424f/cs-3.2.0.tar.gz
 Summary  : A simple yet powerful CloudStack API client for Python and the command-line.
