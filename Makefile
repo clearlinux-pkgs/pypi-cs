@@ -1,5 +1,5 @@
 PKG_NAME := pypi-cs
-URL = https://files.pythonhosted.org/packages/68/09/f2ed131a6b154b371ca59c0cce2368be3020ef577980663b739aac90424f/cs-3.2.0.tar.gz
+URL = https://files.pythonhosted.org/packages/97/6d/97c28ba4b2314a136a72390aee8d44910b1a6226bd33b2b262b853226207/cs-3.3.0.tar.gz
 ARCHIVES = 
 
 include ../common/Makefile.common
