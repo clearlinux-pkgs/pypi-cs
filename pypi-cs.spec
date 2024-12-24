@@ -6,10 +6,10 @@
 # autospec commit: 5424026
 #
 Name     : pypi-cs
-Version  : 3.3.0
-Release  : 19
-URL      : https://files.pythonhosted.org/packages/97/6d/97c28ba4b2314a136a72390aee8d44910b1a6226bd33b2b262b853226207/cs-3.3.0.tar.gz
-Source0  : https://files.pythonhosted.org/packages/97/6d/97c28ba4b2314a136a72390aee8d44910b1a6226bd33b2b262b853226207/cs-3.3.0.tar.gz
+Version  : 3.3.1
+Release  : 20
+URL      : https://files.pythonhosted.org/packages/a7/6f/27132bab7001fb44051af99ff72d34358ebbbea60560daf7e862d00af01b/cs-3.3.1.tar.gz
+Source0  : https://files.pythonhosted.org/packages/a7/6f/27132bab7001fb44051af99ff72d34358ebbbea60560daf7e862d00af01b/cs-3.3.1.tar.gz
 Summary  : A simple yet powerful CloudStack API client for Python and the command-line.
 Group    : Development/Tools
 License  : BSD-3-Clause
@@ -23,10 +23,11 @@ BuildRequires : buildreq-distutils3
 %define debug_package %{nil}
 
 %description
-CS
-==
-.. image:: https://img.shields.io/pypi/l/cs.svg
-:alt: License
+.. image:: https://github.com/ngine-io/cs/actions/workflows/main.yml/badge.svg
+:alt: CI
+:target: https://github.com/ngine-io/cs/actions/workflows/main.yml
+.. image:: https://img.shields.io/pypi/pyversions/cs.svg
+:alt: Python versions
 :target: https://pypi.org/project/cs/
 
 %package bin
@@ -68,10 +69,10 @@ python3 components for the pypi-cs package.
 
 
 %prep
-%setup -q -n cs-3.3.0
-cd %{_builddir}/cs-3.3.0
+%setup -q -n cs-3.3.1
+cd %{_builddir}/cs-3.3.1
 pushd ..
-cp -a cs-3.3.0 buildavx2
+cp -a cs-3.3.1 buildavx2
 popd
 
 %build
@@ -79,7 +80,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1733237584
+export SOURCE_DATE_EPOCH=1735070438
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
